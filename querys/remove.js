@@ -1,0 +1,1 @@
+db.users.remove({'name': { "$regex": "pablito", "$options": "i"}}, { "justOne": true });
